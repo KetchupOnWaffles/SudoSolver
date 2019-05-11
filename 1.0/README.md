@@ -11,8 +11,8 @@ Download repository.
 in SudoSolver folder, change the file in.txt that contains the Sudoku puzzle, then launch SudoSolver.py to solve the puzzle, all steps are logged in the file out.txt
 
 
-## 2.0 goal
-2.0 version will have an elimination algorithme added to it to minimize the numbers tried per cell, will reduce time to solve greatly
+## 2.0
+this is 1.0 version, it uses backtracking only, 2.0 uses recursive elimination with backtracking, it solves the puzzle much faster
 
 
 ## Contributing
