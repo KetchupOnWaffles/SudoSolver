@@ -11,7 +11,7 @@ Download repository.
 in SudoSolver folder, change the file in.txt that contains the Sudoku puzzle, then launch SudoSolver.py to solve the puzzle, all steps are logged in the file out.txt
 
 ## 2.1
-in version 2.1 we don't try everything in backtracking function but only possible cases, can cut execution time in half
+In version 2.1 we don't try everything in backtracking function but only possible cases, can cut execution time in half
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

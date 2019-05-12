@@ -12,7 +12,7 @@ in SudoSolver folder, change the file in.txt that contains the Sudoku puzzle, th
 
 
 ## 2.0
-this is 1.0 version, it uses backtracking only, 2.0 uses recursive elimination with backtracking, it solves the puzzle much faster
+This is 1.0 version, it uses backtracking only, 2.0 uses recursive elimination with backtracking, it solves the puzzle much faster
 
 
 ## Contributing
