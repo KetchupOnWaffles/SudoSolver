@@ -1,5 +1,5 @@
 #these functions in order, create the lists all, line, column and sq lists
-from show import showff
+from show import show
 def tout(f):
     tout = list()
     for i in f:
@@ -59,7 +59,7 @@ def liste_vides(all, line, column, sq):
                 line = ligne(all)
                 column = colonne(line)
                 sq = carre(all)
-                showff(line,(count,possible[0]))
+                show(line)
                 liste_vides(all, line, column, sq)
 
             else:

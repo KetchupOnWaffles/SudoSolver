@@ -26,7 +26,6 @@ if not verif_all:
     #backtrack function, is a brute force algorithme, that starts with tries in order all cells and checks for errors, if there are any, it goes back and changes previous steps
 
     def backtrack(empty):
-        counter = 0
         index = 0
         n = 1
         while True:
@@ -52,15 +51,11 @@ if not verif_all:
             tt = all
             if index == len(empty):
                 return tt
-            if counter == 0:
-                show(line,(empty[index][0], n-1),counter)
-                counter+=1
-            else:
-                show(line,(empty[index][0], n),counter)
+            show(line)
     if len(empty) != 0:
         final = backtrack(empty)
     line = ligne(all)
-    showf(line)
+    show(line)
 else:
     print("base puzzle contains an error")
 end = time.time()
